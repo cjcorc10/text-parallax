@@ -30,7 +30,7 @@ export default function Home() {
   });
 
   return (
-    <main>
+    <main className="font-literata">
       <div className="h-[100vh]" />
       <div ref={ref}>
         <Slide
