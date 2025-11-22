@@ -30,7 +30,7 @@ export default function Home() {
   });
 
   return (
-    <main className="">
+    <main>
       <div className="h-[100vh]" />
       <div ref={ref}>
         <Slide
@@ -72,7 +72,7 @@ const Slide = ({
   const translateX = useTransform(
     progress,
     [0, 1],
-    [150 * orientation, -150 * orientation]
+    [250 * orientation, -250 * orientation]
   );
 
   return (
